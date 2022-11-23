@@ -1,6 +1,17 @@
-{ name = "my-project"
+{ name = "purescript-node-ws"
 , dependencies =
-  [ "aff", "console", "custom-prelude", "effect", "prelude", "spec" ]
+  [ "aff"
+  , "avar"
+  , "console"
+  , "custom-prelude"
+  , "effect"
+  , "foreign"
+  , "node-buffer"
+  , "nullable"
+  , "partial"
+  , "spec"
+  , "strings"
+  ]
 , packages = ./packages.dhall
 , sources = [ "src/**/*.purs", "test/**/*.purs" ]
 }

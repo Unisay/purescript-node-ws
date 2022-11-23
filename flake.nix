@@ -26,9 +26,9 @@
               epkgs.purs-tidy
               epkgs.spago
               epkgs.zephyr
-              # pkgs.nodejs-16_x
               pkgs.dhall
               pkgs.nixfmt
+              pkgs.nodejs
               pkgs.purescript
             ];
           };

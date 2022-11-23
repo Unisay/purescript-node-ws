@@ -1,0 +1,31 @@
+{
+    "name": "purescript-node-ws",
+    "description": "Template repository for a Purescript Library",
+    "version": "1.0.0",
+    "main": "index.js",
+    "directories": {
+        "test": "test"
+    },
+    "scripts": {
+        "postinstall": "spago install",
+        "test": "spago test"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/Unisay/purescript-node-ws.git"
+    },
+    "keywords": [
+        "purescript",
+        "websocket"
+    ],
+    "author": "Yura Lazarev",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/Unisay/purescript-node-ws/issues"
+    },
+    "homepage": "https://github.com/Unisay/purescript-node-ws#readme",
+    "dependencies": {
+        "ws": "^8.11.0"
+    },
+    "devDependencies": {}
+}
